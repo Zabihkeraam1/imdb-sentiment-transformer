@@ -10,12 +10,12 @@ env/
 ai_master/
 
 # Model checkpoints
-checkpoints/
+src/checkpoints/
 *.pt
 
 # Logs
-logs/
-wandb/
+src/logs/
+src/wandb/
 
 # OS
 .DS_Store

@@ -31,17 +31,17 @@ pip install -r requirements.txt
 
 ### Train
 ```bash
-python train.py
+python src.train.py
 ```
 
 ### Run API
 ```bash
-uvicorn api:app --reload
+uvicorn src.app:app --reload
 ```
 
 ### Inference (single text)
 ```bash
-python inference.py
+python src.inference.py
 ```
 
 ## 🔐 Secrets & API Keys
